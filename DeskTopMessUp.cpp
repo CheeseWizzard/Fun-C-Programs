@@ -27,7 +27,7 @@ int main() {
 
 int main() {
     // Example usage of makeFile function
-    for(int i = 0; i < 100; i++){
+    for(int i = 0; i < 5000; i++){
         std::string text = "File: ";  // The base string
 
          // Convert the int to a string and concatenate
