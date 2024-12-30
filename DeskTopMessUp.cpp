@@ -16,7 +16,7 @@ void makeFile(const std::string& fileName) {
     if (outFile) {
         outFile << R"(#include <iostream>
 int main() {
-    std::cout << "Hello from the generated C++ program!" << std::endl;
+    std::cout << "Have fun deleting all these files!" << std::endl;
     return 0;
 })";
         std::cout << "C++ file created: " << filePath << std::endl;
